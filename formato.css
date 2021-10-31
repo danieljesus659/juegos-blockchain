@@ -1,0 +1,120 @@
+*{
+        padding: 10; 
+        box-sizing: border-box;
+}
+html {
+    font-size: 1rem;
+    height: 100%;
+}
+
+header {
+    background-color: rgb(202, 153, 89);
+    box-shadow: 0 0 0.5rem rgb(83 78 76 / 50%);
+}
+
+footer {
+    background-color: burlywood;
+}
+
+body,header,main,footer {
+   /* border: 3px rgb(33, 101, 189) solid; */
+    min-height: 50px;
+    margin: 0.5rem;
+    min-width: 400px;
+}
+
+body {
+    background-color: rgb(114, 76, 19);
+}
+
+main {
+    min-height: 200px;
+    overflow: auto;
+    background-color: whitesmoke;
+}
+
+main>div {
+  /*  border: 2px rgb(9, 124, 177) solid; */
+    min-height: 180px;
+    margin: 0.5rem;
+    height: auto;
+    float: left;
+    width: 90%;
+}
+
+main>aside {
+  /*  border: 2px cyan solid; */
+    min-height: 180px;
+    margin: 0.5rem;
+    min-width: 20%;
+    float: left;
+    width: auto;
+}
+.secciones article {
+   /* border: 2px cornflowerblue solid; */
+    margin: 00.5rem;
+    min-height: 20px;
+}
+#gif-ppal {
+    width: 30%;
+}
+
+.header-logo {
+    width: auto;
+    display: inline-block;
+    margin: 0.5rem;
+}
+
+.header-menubar {
+    left: auto;
+    position: relative;
+    top: auto;
+    display: inline-block;
+    margin: 0.5rem 0 0.5rem 1rem;
+}
+
+.header-menubar ul {
+    list-style: none;
+}
+
+.header-menubar li {
+float: left;
+font-weight: 700;
+text-align: left;
+padding: 0.5rem;
+}
+
+.header-menubar a {
+    text-decoration: none;
+    color: rgb(19, 19, 143);
+}
+
+.header-menubar a:hover {
+    color: rgb(16, 96, 133);
+}
+
+.header-menubar li a {
+    font-size: 1.2rem;
+    background: transparent;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-image: url(img/axie.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body:before {
+content: "";
+width: 100%;
+min-height: 130vh;
+position: absolute;
+top: 0;
+left: 0;
+background: linear-gradient(rgb(28, 28, 95),rgb(82, 56, 9));
+opacity: 0.35;
+}
